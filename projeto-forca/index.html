@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Jogo da forca</h1>
+    </header>
+    <section>
+        <p>Escolha a palavra: <input type="password" name="pass" id="letra1" maxlength="1"><input type="password" name="pass" id="letra2" maxlength="1"><input type="password" name="pass" id="letra3" maxlength="1"><input type="password" name="pass" id="letra4" maxlength="1"><input type="password" name="pass" id="letra5" maxlength="1"><input type="password" name="pass" id="letra6" maxlength="1"><input type="password" name="pass" id="letra7" maxlength="1"></p>
+        <p><label for="letra">Escolha uma letra: </label><input type="text" name="text1" id="letra" maxlength="1" > <input type="button" value="verificar" onclick="verificar()" id="verificar"></p>
+        <div id="r1">_</div>
+        <div id="r2">_</div>
+        <div id="r3">_</div>
+        <div id="r4">_</div>
+        <div id="r5">_</div>
+        <div id="r6">_</div>
+        <div id="r7">_</div>
+        <p id="erros">Erros: </p> 
+        <p id="certas">Acertos: </p>
+        <p id="escolhidas">Letras: </p>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+<script src="verificar.js"></script>
+</html>

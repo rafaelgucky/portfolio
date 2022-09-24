@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    color: darkgoldenrod;
+}
+header{
+    text-align: center;
+}
+section{
+    margin: auto;
+    background-color: aliceblue;
+    min-width: none;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+}
+input{
+    width: 20px;
+    text-align: center;
+    
+}
+input#verificar{
+    width: 70px;
+}
+div{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 20px;
+    text-align: center;
+}

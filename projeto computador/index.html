@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computador</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Descubra o computador ideal para você!</h1>
+    </header>
+    <section>
+        <fieldset>
+            <legend>Memória</legend>
+            <p><label for="memoria">Memória-RAM (em GB): </label><input type="number" name="mem" id="memoria"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Armazenamento</legend>
+            <p><label for="capdisco">Capacidade do disco (em GB): </label><input type="number" name="disc" id="capdisco"></p>
+            <p>Tipo do armazenamento: <label for="tipdisco">SSD</label><input type="radio" name="tipodisco" id="tipdisco">    <label for="tipedisco">HDD</label><input type="radio" name="tipodisco" id="tipedisco"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Processador</legend>
+            <p><label for="processador">Processador (em escala de 0 a 10): </label><input type="number" name="num" id="processador"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Placa-de-vídeo</legend>
+            <p><label for="placavi">Placa de vídeo (em escala de 0 a 10): </label><input type="number" name="num2" id="placavi"></p>
+        </fieldset>
+        <input type="button" value="Verificar" onclick="verificar()" id="verificar">
+        <p id="resultado">O computador que você escolheu é ...</p>
+        <div id="imagem">
+            <img src="fundo.jpg" alt="">
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+<script src="escolhe.js"></script>
+</html>

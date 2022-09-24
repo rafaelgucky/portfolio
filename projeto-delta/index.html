@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header><h1>Calculadora de Delta e Bháskara</h1></header>
+    <section>
+        <p><label for="a">Informe o A: </label><input type="number" name="num1" id="a"></p>
+        <p><label for="b">Informe o B: </label><input type="number" name="num2" id="b"></p>
+        <p><label for="c">Informe o C: </label><input type="number" name="num3" id="c"></p>
+        <input type="button" value="Calcular" onclick="calcular()" class="botao">
+        <p id="resultado"></p>
+        <h1>Calcular Bháskara</h1>
+        <p><input type="button" value="Calcular Bháskara X'" onclick="bhaskarapositivo()" class="botao"> <input type="button" value="Calcular Bháskara X''" onclick="bhaskaranegativo()" class="botao"> </p>
+        <p id="resposi"></p>
+        <p id="resnega"></p>
+        <p><a href="index.html" class="botao">Atualizar</a></p>
+    </section>
+</body>
+<script src="calcular.js"></script>
+</html>
