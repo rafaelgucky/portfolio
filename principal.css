@@ -23,34 +23,51 @@ section{
     padding: 5px;
     background-color: aliceblue;
     margin: auto;
-    
+    text-align: center;
 }
 div#outros{
-    width: 90%;
+    
     text-align: center;
 }
 div#img1{
-    display: inline;
+    background-color: rgb(5, 255, 255);
+    margin: auto;
+    max-width: 700px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 div#img1 > a > img{
     
     margin: 10px;
-    padding: 20px;
-    background-color: aqua;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 124, 124);
+   
 }
+
 div#img2{
-    display: inline;
+    background-color: rgb(3, 209, 209);
+    margin: auto;
+    max-width: 700px;
 }
 div#img2 > a > img{
-    
     margin: 10px;
-    padding: 20px;
-    background-color: aqua;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 124, 124);
+}
+div#img3{
+    background-color: rgb(2, 177, 177);
+    margin: auto;
+    max-width: 700px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 div#img3 > a > img{
     margin: 10px;
-    padding: 20px;
-    background-color: aqua;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 124, 124);
 }
 a{
     text-decoration: none;
@@ -59,6 +76,5 @@ a{
     color: darkblue;
 }
 a:hover{
-    text-decoration: underline;
     color: darkred;
 }
