@@ -44,6 +44,9 @@ div#img1 > a > img{
     background-color: rgb(0, 124, 124);
    
 }
+div#img1 > a{
+    display: block;
+}
 
 div#img2{
     background-color: rgb(3, 209, 209);
@@ -56,8 +59,11 @@ div#img2 > a > img{
     border-radius: 5px;
     background-color: rgb(0, 124, 124);
 }
+div#img2 > a{
+    display: block;
+}
 div#img3{
-    background-color: rgb(2, 177, 177);
+    background-color: rgb(2, 189, 189);
     margin: auto;
     max-width: 700px;
     border-bottom-right-radius: 10px;
@@ -68,6 +74,9 @@ div#img3 > a > img{
     padding: 40px;
     border-radius: 5px;
     background-color: rgb(0, 124, 124);
+}
+div#img3 > a{
+    display: block;
 }
 a{
     text-decoration: none;
