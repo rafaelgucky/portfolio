@@ -106,5 +106,31 @@ a:hover{
         margin: auto;
         text-align: center;
     }
+    a{
+        color: rgb(0, 161, 62);
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 10px;
+        line-height: 20px;
+    }
+    div#img1{
+        background-color: rgb(0, 255, 255);
+        padding: 30px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    div#img2{
+        background-color: rgb(0, 255, 255);
+        padding: 30px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    div#img3{
+        background-color: rgb(0, 255, 255);
+        padding: 30px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+
 
 }
