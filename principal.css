@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
 }
+@media screen and (min-width: 500px) and (max-width: 10000px) {
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: bisque;
@@ -13,11 +14,15 @@ header{
     text-align: center;
     display: block;
 }
+div{
+    display: inline-block;
+    
+}
 header > h1{
     padding: 20px;
 }
 section{
-    max-width: 800px;
+    max-width: 900px;
     min-width: none;
     border-radius: 10px;
     padding: 5px;
@@ -30,60 +35,75 @@ div#outros{
     text-align: center;
 }
 div#img1{
-    background-color: rgb(5, 255, 255);
+    background-color: rgb(255, 238, 5);
     margin: auto;
-    max-width: 700px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 10px solid black;
 }
 div#img1 > a > img{
     
     margin: 10px;
     padding: 40px;
     border-radius: 5px;
-    background-color: rgb(0, 124, 124);
+    background-color: rgb(0, 255, 255);
    
 }
 div#img1 > a{
-    display: block;
+    
 }
 
 div#img2{
-    background-color: rgb(3, 209, 209);
+    background-color: rgb(255, 230, 0);
     margin: auto;
-    max-width: 700px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 10px solid black;
 }
 div#img2 > a > img{
     margin: 10px;
     padding: 40px;
     border-radius: 5px;
-    background-color: rgb(0, 124, 124);
+    background-color: rgb(0, 255, 255);
 }
 div#img2 > a{
-    display: block;
+    
 }
 div#img3{
-    background-color: rgb(2, 189, 189);
+    background-color: rgb(255, 230, 0);
     margin: auto;
-    max-width: 700px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 10px solid black;
 }
 div#img3 > a > img{
     margin: 10px;
     padding: 40px;
     border-radius: 5px;
-    background-color: rgb(0, 124, 124);
+    background-color: rgb(0, 255, 255);
 }
 div#img3 > a{
-    display: block;
+    
 }
 a{
     text-decoration: none;
     padding: 10px;
     line-height: 15px;
-    color: darkblue;
+    font-size: 1.2em;
+    color: rgb(0, 161, 62);
 }
 a:hover{
     color: darkred;
+}
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 499px) {
+    body{
+        background-color: brown;
+    }
 }
