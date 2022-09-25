@@ -22,62 +22,39 @@ header > h1{
     padding: 20px;
 }
 section{
-    max-width: 900px;
+    max-width: 800px;
     min-width: none;
     border-radius: 10px;
     padding: 5px;
     background-color: aliceblue;
     margin: auto;
     text-align: center;
+    box-shadow: 2px 2px 5px black;
 }
-div#outros{
-    
-    text-align: center;
+a{
+    color: rgb(0, 161, 62);
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px;
+    line-height: 20px;
 }
 div#img1{
-    background-color: rgb(255, 238, 5);
-    margin: auto;
-    max-width: 300px;
-    border-radius: 10px;
-    padding: 30px;
-    border: 10px solid black;
-}
-div#img1 > a > img{
-    
-    margin: 10px;
-    padding: 40px;
-    border-radius: 5px;
     background-color: rgb(0, 255, 255);
-   
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
 }
-
 div#img2{
-    background-color: rgb(255, 230, 0);
-    margin: auto;
-    width: 300px;
-    padding: 30px;
-    border-radius: 10px;
-    border: 10px solid black;
-}
-div#img2 > a > img{
-    margin: 10px;
-    padding: 40px;
-    border-radius: 5px;
     background-color: rgb(0, 255, 255);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
 }
 div#img3{
-    background-color: rgb(255, 230, 0);
-    margin: auto;
-    max-width: 300px;
-    border-radius: 10px;
-    padding: 30px;
-    border: 10px solid black;
-}
-div#img3 > a > img{
-    margin: 10px;
-    padding: 40px;
-    border-radius: 5px;
     background-color: rgb(0, 255, 255);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
 }
 a{
     text-decoration: none;
@@ -108,7 +85,7 @@ a:hover{
         
     }
     section{
-        max-width: 300px;
+        max-width: 350px;
         min-width: none;
         border-radius: 10px;
         padding: 5px;
