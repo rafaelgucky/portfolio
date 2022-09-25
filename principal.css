@@ -50,9 +50,6 @@ div#img1 > a > img{
     background-color: rgb(0, 255, 255);
    
 }
-div#img1 > a{
-    
-}
 
 div#img2{
     background-color: rgb(255, 230, 0);
@@ -68,9 +65,6 @@ div#img2 > a > img{
     border-radius: 5px;
     background-color: rgb(0, 255, 255);
 }
-div#img2 > a{
-    
-}
 div#img3{
     background-color: rgb(255, 230, 0);
     margin: auto;
@@ -84,9 +78,6 @@ div#img3 > a > img{
     padding: 40px;
     border-radius: 5px;
     background-color: rgb(0, 255, 255);
-}
-div#img3 > a{
-    
 }
 a{
     text-decoration: none;
