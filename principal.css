@@ -95,6 +95,16 @@ a:hover{
 
 @media screen and (min-width: 0px) and (max-width: 499px) {
     body{
-        background-color: brown;
+        background-color: bisque;
     }
+    section{
+        max-width: 300px;
+        min-width: none;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: aliceblue;
+        margin: auto;
+        text-align: center;
+    }
+
 }
