@@ -17,6 +17,7 @@ var letras = window.document.getElementById('letra')
 var erros = window.document.getElementById('erros')
 var certa = window.document.getElementById('certas')
 var escolhidas = window.document.getElementById('escolhidas')
+var avisos = window.document.getElementById('avisos')
 var erradas = 0
 var certas = 0
 var letras_escolhidas = []
@@ -32,9 +33,47 @@ function verificar(){
     var palavra7 = String(pal7.value)
     var letra = String(letras.value)
 
+    avisos.innerHTML = 'Avisos: '
+
     if(letra == ''){
-      window.alert('Preencha corretamente!')
-    }else{
+      avisos.innerHTML = 'Avisos: Letra inválida!'
+    }
+
+    else if(it1 == letra){
+       avisos.innerHTML ='Avisos: Letra já acertada!'
+       letras.value = ''
+    }
+   
+    else if(it2 == letra){
+       avisos.innerHTML ='Avisos: Letra já acertada!'
+       letras.value = ''
+    }
+    else if(it3 == letra){
+      avisos.innerHTML ='Avisos: Letra já acertada!'
+      letras.value = ''
+    }
+    else if(it4 == letra){
+      avisos.innerHTML ='Avisos: Letra já acertada!'
+      letras.value = ''
+    }
+    else if(it4 == letra){
+      avisos.innerHTML ='Avisos: Letra já acertada!'
+      letras.value = ''
+    }
+    else if(it5 == letra){
+      avisos.innerHTML ='Avisos: Letra já acertada!'
+      letras.value = ''
+    }
+    else if(it6 == letra){
+      avisos.innerHTML ='Avisos: Letra já acertada!'
+      letras.value = ''
+    }
+    else if(it7 == letra){
+      avisos.innerHTML ='Avisos: Letra já acertada!'
+      letras.value = ''
+    }
+
+    else{
 
       letra = letra.toLowerCase();
 
