@@ -39,38 +39,9 @@ function verificar(){
       avisos.innerHTML = 'Avisos: Letra inválida!'
     }
 
-    else if(it1 == letra){
+    else if(it1 == letra || it2 == letra || it3 == letra || it4 == letra || it5 == letra || it6 == letra || it7 == letra){
        avisos.innerHTML ='Avisos: Letra já acertada!'
        letras.value = ''
-    }
-   
-    else if(it2 == letra){
-       avisos.innerHTML ='Avisos: Letra já acertada!'
-       letras.value = ''
-    }
-    else if(it3 == letra){
-      avisos.innerHTML ='Avisos: Letra já acertada!'
-      letras.value = ''
-    }
-    else if(it4 == letra){
-      avisos.innerHTML ='Avisos: Letra já acertada!'
-      letras.value = ''
-    }
-    else if(it4 == letra){
-      avisos.innerHTML ='Avisos: Letra já acertada!'
-      letras.value = ''
-    }
-    else if(it5 == letra){
-      avisos.innerHTML ='Avisos: Letra já acertada!'
-      letras.value = ''
-    }
-    else if(it6 == letra){
-      avisos.innerHTML ='Avisos: Letra já acertada!'
-      letras.value = ''
-    }
-    else if(it7 == letra){
-      avisos.innerHTML ='Avisos: Letra já acertada!'
-      letras.value = ''
     }
 
     else{
