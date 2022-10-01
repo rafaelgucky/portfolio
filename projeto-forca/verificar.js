@@ -32,6 +32,7 @@ function verificar(){
     var palavra6 = String(pal6.value)
     var palavra7 = String(pal7.value)
     var letra = String(letras.value)
+    letra = letra.toLowerCase();
 
     avisos.innerHTML = 'Avisos: '
 
