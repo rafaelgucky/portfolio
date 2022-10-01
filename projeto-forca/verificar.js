@@ -52,7 +52,7 @@ function verificar(){
       letras_escolhidas.push(letra)
 
     if(letra == palavra1){
-       it1.innerHTML = letra 
+       it1.innerHTML = letra.toUpperCase() 
        it1 = letra
     }
     if(letra == palavra2){
