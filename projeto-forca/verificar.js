@@ -6,6 +6,9 @@ var pal4 = window.document.getElementById('letra4')
 var pal5 = window.document.getElementById('letra5')
 var pal6 = window.document.getElementById('letra6')
 var pal7 = window.document.getElementById('letra7')
+var pal8 = window.document.getElementById('letra8')
+var pal9 = window.document.getElementById('letra9')
+var pal10 = window.document.getElementById('letra10')
 var it1 = window.document.getElementById('r1')
 var it2 = window.document.getElementById('r2')
 var it3 = window.document.getElementById('r3')
@@ -13,11 +16,16 @@ var it4 = window.document.getElementById('r4')
 var it5 = window.document.getElementById('r5')
 var it6 = window.document.getElementById('r6')
 var it7 = window.document.getElementById('r7')
+var it8 = window.document.getElementById('r8')
+var it9 = window.document.getElementById('r9')
+var it10 = window.document.getElementById('r10')
+var palavrasocultas = window.document.getElementsByClassName('palavraoculta')
 var letras = window.document.getElementById('letra')
 var erros = window.document.getElementById('erros')
 var certa = window.document.getElementById('certas')
 var escolhidas = window.document.getElementById('escolhidas')
 var avisos = window.document.getElementById('avisos')
+var quantidadedecasas = window.document.getElementById('quantidade')
 var erradas = 0
 var certas = 0
 var letras_escolhidas = []
@@ -31,7 +39,11 @@ function verificar(){
     var palavra5 = String(pal5.value)
     var palavra6 = String(pal6.value)
     var palavra7 = String(pal7.value)
+    var palavra8 = String(pal8.value)
+    var palavra9 = String(pal9.value)
+    var palavra10 = String(pal10.value)
     var letra = String(letras.value)
+    var quantidade = Number(quantidadedecasas)
     letra = letra.toLowerCase();
 
     avisos.innerHTML = 'Avisos: '
@@ -46,6 +58,8 @@ function verificar(){
     }
 
     else{
+
+
 
       letra = letra.toLowerCase();
 
@@ -79,6 +93,18 @@ function verificar(){
         it7.innerHTML = letra
         it7 = letra
      }
+     if(letra == palavra8){
+      it8.innerHTML = letra
+      it8 = letra
+   }
+   if(letra == palavra9){
+      it9.innerHTML = letra
+      it9 = letra
+   }
+   if(letra == palavra10){
+      it10.innerHTML = letra
+      it10 = letra
+   }
 
 
 
@@ -105,9 +131,18 @@ function verificar(){
      if(palavra7 == letra){
       certas = certas + 1
      }
+     if(palavra8 == letra){
+      certas = certas + 1
+     }
+     if(palavra9 == letra){
+      certas = certas + 1
+     }
+     if(palavra10 == letra){
+      certas = certas + 1
+     }
      certa.innerHTML = `Acertos: ${certas}`
 
-     if(it1 != letra && it2 != letra && it3 != letra && it4 != letra && it5 != letra && it6 != letra && it7 != letra ){
+     if(it1 != letra && it2 != letra && it3 != letra && it4 != letra && it5 != letra && it6 != letra && it7 != letra && it8 != letra && it9 != letra && it10 != letra ){
       erradas = erradas + 1
      }
      erros.innerHTML = `Erros: ${erradas}` 
