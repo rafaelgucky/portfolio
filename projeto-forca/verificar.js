@@ -64,7 +64,7 @@ function verificar(){
     }
 
     else{
-      
+
       letra = letra.toLowerCase();
 
       letras_escolhidas.push(letra)
@@ -109,10 +109,6 @@ function verificar(){
       it10.innerHTML = letra
       it10 = letra
    }
-
-
-
-
 
      if(palavra1 == letra){
       certas = certas + 1
