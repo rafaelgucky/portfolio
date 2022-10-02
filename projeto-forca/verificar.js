@@ -164,7 +164,88 @@ function verificar(){
       it9.innerHTML = palavra9
       it10.innerHTML = palavra10
      }
-
+     
    }
 }
 
+function q(){
+   letras.value = 'q'
+}
+function w(){
+   letras.value = 'w'
+}
+function e(){
+   letras.value = 'e'
+}
+function r(){
+   letras.value = 'r'
+}
+function t(){
+   letras.value = 't'
+}
+function y(){
+   letras.value = 'y'
+}
+function u(){
+   letras.value = 'u'
+}
+function i(){
+   letras.value = 'i'
+}
+function o(){
+   letras.value = 'o'
+}
+function p(){
+   letras.value = 'p'
+}
+function a(){
+   letras.value = 'a'
+}
+function s(){
+   letras.value = 's'
+}
+function d(){
+   letras.value = 'd'
+}
+function f(){
+   letras.value = 'f'
+}
+function g(){
+   letras.value = 'g'
+}
+function h(){
+   letras.value = 'h'
+}
+function j(){
+   letras.value = 'j'
+}
+function k(){
+   letras.value = 'k'
+}
+function l(){
+   letras.value = 'l'
+}
+function ç(){
+   letras.value = 'ç'
+}
+function z(){
+   letras.value = 'z'
+}
+function x(){
+   letras.value = 'x'
+}
+function c(){
+   letras.value = 'c'
+}
+function v(){
+   letras.value = 'v'
+}
+function b(){
+   letras.value = 'b'
+}
+function n(){
+   letras.value = 'n'
+}
+function m(){
+   letras.value = 'm'
+}

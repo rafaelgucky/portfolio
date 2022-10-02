@@ -41,3 +41,13 @@ div{
 input#quantidade{
     width: 30px;
 }*/
+
+input.teclado{
+    background-color: wheat;
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 2px;
+}
