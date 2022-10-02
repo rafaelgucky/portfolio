@@ -30,6 +30,7 @@ div{
     background-color: aquamarine;
     width: 20px;
     text-align: center;
+    border-radius: 2px;
 }
 /*.respostasocultas{
     display: none;

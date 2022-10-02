@@ -19,6 +19,7 @@ var it7 = window.document.getElementById('r7')
 var it8 = window.document.getElementById('r8')
 var it9 = window.document.getElementById('r9')
 var it10 = window.document.getElementById('r10')
+var tentativa = window.document.getElementById('tentativas')
 var palavrasocultas = window.document.getElementsByClassName('palavraoculta')
 var letras = window.document.getElementById('letra')
 var erros = window.document.getElementById('erros')
@@ -29,22 +30,27 @@ var quantidadedecasas = window.document.getElementById('quantidade')
 var erradas = 0
 var certas = 0
 var letras_escolhidas = []
+var tentativas = 0
 
 function verificar(){
 
-    var palavra1 = String(pal1.value)
-    var palavra2 = String(pal2.value)
-    var palavra3 = String(pal3.value)
-    var palavra4 = String(pal4.value)
-    var palavra5 = String(pal5.value)
-    var palavra6 = String(pal6.value)
-    var palavra7 = String(pal7.value)
-    var palavra8 = String(pal8.value)
-    var palavra9 = String(pal9.value)
-    var palavra10 = String(pal10.value)
+    var palavra1 = String(pal1.value).toLowerCase()
+    var palavra2 = String(pal2.value).toLowerCase()
+    var palavra3 = String(pal3.value).toLowerCase()
+    var palavra4 = String(pal4.value).toLowerCase()
+    var palavra5 = String(pal5.value).toLowerCase()
+    var palavra6 = String(pal6.value).toLowerCase()
+    var palavra7 = String(pal7.value).toLowerCase()
+    var palavra8 = String(pal8.value).toLowerCase()
+    var palavra9 = String(pal9.value).toLowerCase()
+    var palavra10 = String(pal10.value).toLowerCase()
     var letra = String(letras.value)
-    var quantidade = Number(quantidadedecasas)
+
     letra = letra.toLowerCase();
+
+    tentativas = tentativas + 1
+    tentativa.innerHTML = 'Tentativas: '
+    tentativa.innerHTML += tentativas
 
     avisos.innerHTML = 'Avisos: '
 
@@ -52,15 +58,13 @@ function verificar(){
       avisos.innerHTML = 'Avisos: Letra inválida!'
     }
 
-    else if(it1 == letra || it2 == letra || it3 == letra || it4 == letra || it5 == letra || it6 == letra || it7 == letra){
+    else if(it1 == letra || it2 == letra || it3 == letra || it4 == letra || it5 == letra || it6 == letra || it7 == letra || it8 == letra || it9 == letra || it10 == letra){
        avisos.innerHTML ='Avisos: Letra já acertada!'
        letras.value = ''
     }
 
     else{
-
-
-
+      
       letra = letra.toLowerCase();
 
       letras_escolhidas.push(letra)
@@ -150,6 +154,20 @@ function verificar(){
      escolhidas.innerHTML = `Letras: ${letras_escolhidas}`
 
      letras.value = ''
+
+     if(erradas >= 8){
+      avisos.innerHTML = 'Avisos: Você perdeu!' 
+      it1.innerHTML = palavra1.toUpperCase()
+      it2.innerHTML = palavra2
+      it3.innerHTML = palavra3
+      it4.innerHTML = palavra4
+      it5.innerHTML = palavra5
+      it6.innerHTML = palavra6
+      it7.innerHTML = palavra7
+      it8.innerHTML = palavra8
+      it9.innerHTML = palavra9
+      it10.innerHTML = palavra10
+     }
 
    }
 }
