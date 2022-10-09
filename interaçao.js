@@ -5,3 +5,15 @@ if(nome == null){
 }else{
 titulo.innerHTML = `Olá ${nome}, bem-vindo(a) ao meu potfólio!`
 }
+
+function menu(){
+    var menu = window.document.getElementById('item')
+    menu.style.display = 'inline-block'
+}
+function fecha(){
+    var tudo = window.document.getElementById('tudo')
+    var menu = window.document.getElementById('item')
+    menu.style.display = 'none'
+}
+
+

@@ -21,7 +21,7 @@ div{
 header > h1{
     padding: 20px;
 }
-section{
+section#tudo{
     max-width: 800px;
     min-width: none;
     border-radius: 10px;
@@ -66,11 +66,51 @@ a{
 a:hover{
     color: darkred;
 }
+div#menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    transform: translate(-1000%, -550%);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+div#item{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-320%, -250%);
+background-color: lightyellow;
+padding: 5px;
+line-height: 35px;
+border-radius: 5px;
+display: none;
+}
 }
 
-
-
 @media screen and (min-width: 0px) and (max-width: 650px) {
+    div#menu{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 5px;
+        transform: translate(-470%, -600%);
+        border-radius: 10px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    div#item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, -270%);
+    background-color: lightyellow;
+    padding: 5px;
+    line-height: 35px;
+    border-radius: 5px;
+    display: none;
+    }
     body{
         background-color: bisque;
         font-family: Arial, Helvetica, sans-serif;
