@@ -89,7 +89,7 @@ display: none;
 }
 }
 
-@media screen and (min-width: 0px) and (max-width: 650px) {
+@media screen and (min-width: 0px) and (max-width: 655px) {
     div#menu{
         position: absolute;
         top: 50%;
@@ -144,7 +144,10 @@ display: none;
     div#img1{
         background-color: rgb(0, 255, 255);
         padding: 30px;
-        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 45px;
+        margin-bottom: 20px;
         border-radius: 30px;
     }
     div#img2{
